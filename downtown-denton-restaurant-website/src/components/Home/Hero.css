@@ -1,0 +1,22 @@
+/* Hero.css */
+.hero-image {
+  height: 100vh; /* Full height of the viewport */
+}
+
+.hero-text {
+  text-align: center; /* Center the text horizontally */
+  padding: 20px;
+}
+
+.hero-button {
+  font-size: 20px; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for the background color */
+  margin-top: 20px; /* Space above the button */
+  text-decoration: none; /* Remove default link underline */
+}
+.hero-button:hover {
+  background-color: #e6b042; /* Slightly darker yellow on hover */
+  box-shadow: 0 2px 20px rgba(255, 165, 0, 0.4); /* Orange glow effect on hover */
+}
